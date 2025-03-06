@@ -1,5 +1,4 @@
-
-import { SolarPanel, ExternalLink, Mail, Phone } from 'lucide-react';
+import { PanelTop, ExternalLink, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex items-center space-x-2 group mb-4"
             >
-              <SolarPanel className="w-6 h-6 text-solar-blue group-hover:animate-float transition-all duration-300" />
+              <PanelTop className="w-6 h-6 text-solar-blue group-hover:animate-float transition-all duration-300" />
               <div>
                 <h2 className="text-lg font-bold">Solar Land Assessor GPT</h2>
                 <p className="text-xs text-muted-foreground">Solar industry meets AI • Powered by GPT-4o</p>

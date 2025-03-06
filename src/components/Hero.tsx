@@ -1,5 +1,4 @@
-
-import { ChevronDown, Sun, SolarPanel, AreaChart, MapPin } from 'lucide-react';
+import { ChevronDown, Sun, PanelTop, AreaChart, MapPin } from 'lucide-react';
 import YouTubeEmbed from './YouTubeEmbed';
 import ThreeDSolarPanel from './ThreeDSolarPanel';
 
@@ -62,7 +61,7 @@ const Hero = () => {
           <div className="lg:col-span-2 glass rounded-xl p-6 flex flex-col justify-center space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-full flex items-center justify-center glass">
-                <SolarPanel className="w-5 h-5 text-solar-blue" />
+                <PanelTop className="w-5 h-5 text-solar-blue" />
               </div>
               <div>
                 <h3 className="font-medium">Complete Solar Analysis</h3>

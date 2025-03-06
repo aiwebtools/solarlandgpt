@@ -1,6 +1,5 @@
-
 import { useState, useEffect } from 'react';
-import { SolarPanel, Sun, Menu, X } from 'lucide-react';
+import { PanelTop, Sun, Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +32,7 @@ const Header = () => {
           className="flex items-center space-x-2 group"
         >
           <div className="relative w-10 h-10 flex items-center justify-center">
-            <SolarPanel className="w-7 h-7 text-solar-blue absolute group-hover:animate-float transition-all duration-300" />
+            <PanelTop className="w-7 h-7 text-solar-blue absolute group-hover:animate-float transition-all duration-300" />
             <Sun className="w-4 h-4 text-solar-gold absolute opacity-0 group-hover:opacity-100 transition-all duration-300" />
           </div>
           <div>
@@ -42,7 +41,6 @@ const Header = () => {
           </div>
         </a>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           <a 
             href="https://chatgpt.com/g/g-ifZPd4Y9h-solar-land-assessor-gpt"
@@ -82,7 +80,6 @@ const Header = () => {
           </a>
         </nav>
 
-        {/* Mobile Menu Button */}
         <button 
           className="md:hidden text-white focus:outline-none"
           onClick={toggleMobileMenu}
@@ -95,7 +92,6 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile Navigation */}
       {mobileMenuOpen && (
         <div className="glass-dark md:hidden absolute top-full left-0 right-0 p-4 flex flex-col space-y-4">
           <a 

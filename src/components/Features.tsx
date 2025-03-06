@@ -1,5 +1,4 @@
-
-import { SolarPanel, Map, Sun, BarChart3, FileText, Zap, Radio, Compass, Building2, Map as MapIcon } from 'lucide-react';
+import { PanelTop, Map, Sun, BarChart3, FileText, Zap, Radio, Compass, Building2, Map as MapIcon } from 'lucide-react';
 
 const FeatureCard = ({ icon: Icon, title, description }: { icon: any, title: string, description: string }) => (
   <div className="glass rounded-xl p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(14,165,233,0.15)]">
@@ -21,7 +20,7 @@ const Features = () => {
       <div className="relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center space-x-2 glass px-4 py-2 rounded-full mb-6">
-            <SolarPanel className="w-4 h-4 text-solar-blue" />
+            <PanelTop className="w-4 h-4 text-solar-blue" />
             <span className="text-sm font-medium">Comprehensive Analysis</span>
           </div>
           
