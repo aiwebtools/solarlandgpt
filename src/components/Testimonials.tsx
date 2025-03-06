@@ -1,14 +1,16 @@
 
 import { Star, Quote } from 'lucide-react';
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 interface TestimonialProps {
   quote: string;
   name: string;
   role: string;
   rating: number;
+  image?: string;
 }
 
-const TestimonialCard = ({ quote, name, role, rating }: TestimonialProps) => (
+const TestimonialCard = ({ quote, name, role, rating, image }: TestimonialProps) => (
   <div className="glass rounded-xl p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(14,165,233,0.15)]">
     <div className="flex mb-4">
       {Array.from({ length: 5 }).map((_, i) => (
@@ -23,9 +25,15 @@ const TestimonialCard = ({ quote, name, role, rating }: TestimonialProps) => (
       <p className="text-muted-foreground mb-6 pl-4">{quote}</p>
     </div>
     <div className="flex items-center mt-4">
-      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-solar-blue to-solar-green flex items-center justify-center text-white font-bold">
-        {name.charAt(0)}
-      </div>
+      <Avatar className="w-10 h-10 border border-solar-blue/20">
+        {image ? (
+          <AvatarImage src={image} alt={name} />
+        ) : (
+          <AvatarFallback className="bg-gradient-to-br from-solar-blue to-solar-green text-white font-bold">
+            {name.charAt(0)}
+          </AvatarFallback>
+        )}
+      </Avatar>
       <div className="ml-3">
         <h4 className="font-medium">{name}</h4>
         <p className="text-sm text-muted-foreground">{role}</p>
@@ -62,6 +70,7 @@ const Testimonials = () => {
             name="Michael Chen"
             role="Solar Installation Specialist"
             rating={5}
+            image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=faces&auto=format&q=80"
           />
           
           <TestimonialCard 
@@ -69,6 +78,7 @@ const Testimonials = () => {
             name="Sarah Johnson"
             role="Renewable Energy Consultant"
             rating={5}
+            image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=faces&auto=format&q=80"
           />
           
           <TestimonialCard 
@@ -76,6 +86,7 @@ const Testimonials = () => {
             name="David Rodriguez"
             role="Solar Business Owner"
             rating={4}
+            image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=faces&auto=format&q=80"
           />
           
           <TestimonialCard 
@@ -83,6 +94,7 @@ const Testimonials = () => {
             name="Jennifer Smith"
             role="Project Manager"
             rating={5}
+            image="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=faces&auto=format&q=80"
           />
           
           <TestimonialCard 
@@ -90,6 +102,7 @@ const Testimonials = () => {
             name="Robert Wilson"
             role="Solar Engineering Lead"
             rating={4}
+            image="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=faces&auto=format&q=80"
           />
           
           <TestimonialCard 
@@ -97,6 +110,7 @@ const Testimonials = () => {
             name="Lisa Thompson"
             role="Residential Solar Consultant"
             rating={5}
+            image="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=faces&auto=format&q=80"
           />
         </div>
       </div>
