@@ -33,6 +33,16 @@ const Disclaimer = () => {
           <div className="flex items-start mb-6">
             <AlertTriangle className="w-6 h-6 text-solar-gold mr-4 flex-shrink-0 mt-1" />
             <div>
+              <h3 className="text-xl font-semibold mb-2">Verification of Outputs</h3>
+              <p className="text-muted-foreground">
+                All outputs, assessments, calculations, and recommendations provided by Solar Land Assessor GPT may contain errors or inaccuracies. Users must independently verify all information with qualified professionals before relying on it. We strongly recommend consulting with certified solar installers, structural engineers, and other relevant experts to validate any data or recommendations provided by this tool.
+              </p>
+            </div>
+          </div>
+          
+          <div className="flex items-start mb-6">
+            <AlertTriangle className="w-6 h-6 text-solar-gold mr-4 flex-shrink-0 mt-1" />
+            <div>
               <h3 className="text-xl font-semibold mb-2">Not a Substitute for Professional Advice</h3>
               <p className="text-muted-foreground">
                 This tool is not a substitute for consultation with licensed solar installers, engineers, architects, or local authorities. All solar installations should be performed by qualified professionals in accordance with local building codes and safety standards.
