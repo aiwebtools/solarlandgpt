@@ -63,11 +63,11 @@ const ConsentPopup = () => {
           <div className="flex justify-center pt-2">
             <button
               onClick={handleConsent}
-              className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-solar-blue to-solar-green p-0.5 font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-solar-blue/50"
+              className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-[#F97316] to-[#F59E0B] p-0.5 font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-[#F97316]/50"
             >
               <span className="relative flex items-center gap-2 rounded-md bg-black px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0">
-                <Check className="h-5 w-5" />
-                <span className="font-semibold tracking-wide">I AGREE</span>
+                <Check className="h-5 w-5 text-[#F97316]" />
+                <span className="font-semibold tracking-wide text-white">I AGREE</span>
               </span>
             </button>
           </div>
