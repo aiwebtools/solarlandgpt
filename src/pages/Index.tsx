@@ -7,6 +7,7 @@ import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
 import Disclaimer from '../components/Disclaimer';
 import Footer from '../components/Footer';
+import ConsentPopup from '../components/ConsentPopup';
 import { useEffect } from 'react';
 
 const Index = () => {
@@ -57,6 +58,7 @@ const Index = () => {
         <Disclaimer />
       </main>
       <Footer />
+      <ConsentPopup />
     </div>
   );
 };
