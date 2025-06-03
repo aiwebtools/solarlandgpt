@@ -1,3 +1,4 @@
+
 import { PanelTop, ExternalLink, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
@@ -15,23 +16,23 @@ const Footer = () => {
               <PanelTop className="w-6 h-6 text-solar-blue group-hover:animate-float transition-all duration-300" />
               <div>
                 <h2 className="text-lg font-bold">Solar Land Assessor GPT</h2>
-                <p className="text-xs text-muted-foreground">Solar industry meets AI • Powered by GPT-4o</p>
+                <p className="text-xs text-muted-foreground">Free AI Tool • AI Web Tools • Powered by GPT-4o</p>
               </div>
             </a>
             <p className="text-sm text-muted-foreground mb-4">
-              AI-powered solar land assessment tool for accurate property evaluation and installation planning.
+              Free AI-powered solar land assessment tool for accurate property evaluation and installation planning. Part of AI Web Tools suite of free AI tools.
             </p>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Free AI Tools</h3>
             <ul className="space-y-2">
               <li>
                 <a 
                   href="#features"
                   className="text-sm text-muted-foreground hover:text-white transition-colors"
                 >
-                  Features
+                  AI Features
                 </a>
               </li>
               <li>
@@ -39,7 +40,7 @@ const Footer = () => {
                   href="#how-it-works"
                   className="text-sm text-muted-foreground hover:text-white transition-colors"
                 >
-                  How It Works
+                  How AI Works
                 </a>
               </li>
               <li>
@@ -47,7 +48,7 @@ const Footer = () => {
                   href="#testimonials"
                   className="text-sm text-muted-foreground hover:text-white transition-colors"
                 >
-                  Testimonials
+                  AI Tool Reviews
                 </a>
               </li>
               <li>
@@ -55,7 +56,7 @@ const Footer = () => {
                   href="#faq"
                   className="text-sm text-muted-foreground hover:text-white transition-colors"
                 >
-                  FAQ
+                  AI Tool FAQ
                 </a>
               </li>
               <li>
@@ -63,14 +64,14 @@ const Footer = () => {
                   href="#disclaimer"
                   className="text-sm text-muted-foreground hover:text-white transition-colors"
                 >
-                  Disclaimer
+                  AI Tool Disclaimer
                 </a>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
+            <h3 className="text-lg font-semibold mb-4">AI Web Tools Contact</h3>
             <ul className="space-y-2">
               <li>
                 <a 
@@ -128,7 +129,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-white transition-colors"
             >
-              © 2025 AI WEB TOOLS LLC. All rights reserved.
+              © 2025 AI WEB TOOLS LLC. Free AI Tools Provider. All rights reserved.
             </a>
           </div>
           
@@ -139,7 +140,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="glass px-4 py-2 rounded-full text-sm flex items-center space-x-2 hover:bg-white/10 transition-all"
             >
-              <span>More AI Tools</span>
+              <span>More Free AI Tools</span>
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>

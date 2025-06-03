@@ -1,3 +1,4 @@
+
 import { ChevronDown, Sun, PanelTop, AreaChart, MapPin } from 'lucide-react';
 import YouTubeEmbed from './YouTubeEmbed';
 import ThreeDSolarPanel from './ThreeDSolarPanel';
@@ -21,15 +22,15 @@ const Hero = () => {
         <div className="w-full max-w-4xl mx-auto text-center mb-12">
           <div className="inline-flex items-center space-x-2 glass px-4 py-2 rounded-full mb-6 animate-pulse-slow">
             <Sun className="w-4 h-4 text-solar-gold" />
-            <span className="text-sm font-medium">AI-Powered Solar Assessment</span>
+            <span className="text-sm font-medium">Free AI Tool by AI Web Tools</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-gradient animate-in">
-            Precise Solar Land Assessment At Your Fingertips
+            Free AI-Powered Solar Land Assessment Tool
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-in">
-            Harness AI to evaluate properties for solar energy potential with detailed analysis of geography, climate, and regulations.
+            Get precise solar energy potential analysis for your property with our advanced AI tool. Professional solar site evaluation made simple and free.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
@@ -39,7 +40,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="glass px-6 py-3 rounded-full text-white hover:bg-solar-blue/10 transition-all border border-solar-blue/30 shadow-[0_0_15px_rgba(14,165,233,0.3)] animate-in"
             >
-              Try Solar Land Assessor GPT
+              Try Free AI Solar Assessment
             </a>
             <a 
               href="#features"
@@ -56,7 +57,7 @@ const Hero = () => {
         
         <div className="w-full max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-8 mb-12">
           <div className="lg:col-span-3">
-            <YouTubeEmbed videoId="CEca8C2GIpY" title="Solar Land Assessor GPT Demo" />
+            <YouTubeEmbed videoId="CEca8C2GIpY" title="Solar Land Assessor GPT Demo - Free AI Tool" />
           </div>
           <div className="lg:col-span-2 glass rounded-xl p-6 flex flex-col justify-center space-y-4">
             <div className="flex items-center space-x-3">
@@ -64,7 +65,7 @@ const Hero = () => {
                 <PanelTop className="w-5 h-5 text-solar-blue" />
               </div>
               <div>
-                <h3 className="font-medium">Complete Solar Analysis</h3>
+                <h3 className="font-medium">Complete AI Solar Analysis</h3>
                 <p className="text-sm text-muted-foreground">Detailed assessment of solar potential</p>
               </div>
             </div>
@@ -73,7 +74,7 @@ const Hero = () => {
                 <AreaChart className="w-5 h-5 text-solar-green" />
               </div>
               <div>
-                <h3 className="font-medium">Data-Driven Insights</h3>
+                <h3 className="font-medium">AI-Driven Insights</h3>
                 <p className="text-sm text-muted-foreground">Accurate calculations and predictions</p>
               </div>
             </div>
@@ -82,8 +83,8 @@ const Hero = () => {
                 <MapPin className="w-5 h-5 text-solar-gold" />
               </div>
               <div>
-                <h3 className="font-medium">Geographical Intelligence</h3>
-                <p className="text-sm text-muted-foreground">Location-specific recommendations</p>
+                <h3 className="font-medium">Smart Geographical Intelligence</h3>
+                <p className="text-sm text-muted-foreground">Location-specific AI recommendations</p>
               </div>
             </div>
           </div>
