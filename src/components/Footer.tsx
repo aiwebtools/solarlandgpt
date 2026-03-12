@@ -135,7 +135,7 @@ const Footer = () => {
           
           <div className="mt-4 md:mt-0">
             <a 
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
               className="glass px-4 py-2 rounded-full text-sm flex items-center space-x-2 hover:bg-white/10 transition-all"

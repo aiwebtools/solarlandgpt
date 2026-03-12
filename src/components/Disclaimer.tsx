@@ -98,7 +98,7 @@ const Disclaimer = () => {
             </a>
             
             <a 
-              href="https://aiwebtools.ai/terms-of-services"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
               className="text-solar-blue hover:text-solar-blue/80 transition-colors"
